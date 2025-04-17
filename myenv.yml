@@ -1,0 +1,22 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.3=h2628c8c_0_cpython
+  - pandas==2.2.3
+  - scikit-learn==1.6.1
+  - stop-words==2018.7.23
+  - keras==3.8.0
+  - pip
+  - pip:
+    - tensorflow==2.18.0
+    - tensorboard==2.18.0
+    - srsly==2.5.1
+    - spacy-legacy==3.0.12
+    - spacy-loggers==1.0.5
+    - tqdm==4.67.1
+    - spacy==3.8.4
+    - matplotlib==3.10.0
+    - spacy==3.8.4
+    
